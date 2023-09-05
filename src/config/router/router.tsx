@@ -9,6 +9,7 @@ export default function AppRouter() {
             <Router>
                 <Routes>
                     <Route path="/dashboard/*" element={<DashboardPages />} />
+                    <Route path="/" element={<DashboardPages />} />
                 </Routes>
             </Router>
         </>
